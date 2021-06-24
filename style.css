@@ -8,7 +8,6 @@ header {
     padding-right: 15px;
     font-size: 14px;
     color: rgb(82, 80, 80);
-
 }
 
 ul {
@@ -32,21 +31,19 @@ li {
     display: block;
     float: right;
     padding: 12px;
-
 }
-
-
 
 .logo {
-    display: grid;
-    justify-content: space-around;
-    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
 
 }
-
-.search-bar {
-    display: flex;
-    border-radius: 50%;
+.search {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    
+    
 }
 
 main {
@@ -58,5 +55,4 @@ main {
 
 footer {
     background-color: #f2f2f2;
-
 }
